@@ -1,0 +1,14 @@
+{
+  "name": "sra-v2",
+  "version": "1.0.0",
+  "description": "Some random api wrapper v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Telk",
+  "license": "MIT",
+  "dependencies": {
+    "phin": "^3.5.1"
+  }
+}
