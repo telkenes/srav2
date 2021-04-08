@@ -1,4 +1,6 @@
 # SRA v2 wrapper
+# Installation
+To install this package, simply do `npm i telkenes/srav2` and in your code import it as a normal node module called `srav2` or `let sra = require('srav2')`
 
 **Note:** Use `null` if you want to leave the query empty
 **Example:**
