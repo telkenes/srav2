@@ -3,205 +3,205 @@ module.exports = [
         func: "animal.dog",
         path: "/animal/dog",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.cat",
         path: "/animal/cat",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.panda",
         path: "/animal/panda",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.fox",
         path: "/animal/fox",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.red_panda",
         path: "/animal/red_panda",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.koala",
         path: "/animal/koala",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.raccoon",
         path: "/animal/raccoon",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animal.kangaroo",
         path: "/animal/kangaroo",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animu.wink",
         path: "/animu/wink",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animu.pat",
         path: "/animu/pat",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animu.hug",
         path: "/animu/hug",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "animu.face_palm",
         path: "/animu/face-palm",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.dog",
         path: "/facts/dog",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.cat",
         path: "/facts/cat",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.panda",
         path: "/facts/panda",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.fox",
         path: "/facts/fox",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.birb",
         path: "/facts/birb",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.koala",
         path: "/facts/koala",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.kangaroo",
         path: "/facts/kangaroo",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.raccoon",
         path: "/facts/raccoon",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.elephant",
         path: "/facts/elephant",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.giraffe",
         path: "/facts/giraffe",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "facts.whale",
         path: "/facts/whale",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.dog",
         path: "/img/dog",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.cat",
         path: "/img/cat",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.panda",
         path: "/img/panda",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.fox",
         path: "/img/fox",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.red_panda",
         path: "/img/red_panda",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.koala",
         path: "/img/koala",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.birb",
         path: "/img/birb",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.raccoon",
         path: "/img/raccoon",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.kangaroo",
         path: "/img/kangaroo",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.whale",
         path: "/img/whale",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "imgs.pikachu",
         path: "/img/pikachu",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "chatbot",
@@ -219,67 +219,67 @@ module.exports = [
         func: "meme",
         path: "/meme",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "base64.encode",
         path: "/base64",
         output: 'json',
-        queries: [{key: "encode", required: true}]
+        queries: [{key: "encode", required: true}, {key: "key", required: false}]
     },
     {
         func: "base64.decode",
         path: "/base64",
         output: 'json',
-        queries: [{key: "decode", required: true}]
+        queries: [{key: "decode", required: true}, {key: "key", required: false}]
     },
     {
         func: "binary.encode",
         path: "/binary",
         output: 'json',
-        queries: [{key: "text", required: true}]
+        queries: [{key: "text", required: true}, {key: "key", required: false}]
     },
     {
         func: "binary.decode",
         path: "/binary",
         output: 'json',
-        queries: [{key: "decode", required: true}]
+        queries: [{key: "decode", required: true}, {key: "key", required: false}]
     },
     {
         func: "joke",
         path: "/joke",
         output: 'json',
-        queries: []
+        queries: [{key: "key", required: false}]
     },
     {
         func: "minecraft",
         path: "/mc",
         output: 'json',
-        queries: [{key: "username", required: true}]
+        queries: [{key: "username", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.wasted",
         path: "/canvas/wasted",
         output: 'img',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.gay",
         path: "/canvas/gay",
         output: 'img',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.glass",
         path: "/canvas/glass",
         output: 'img',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.jail",
         path: "/canvas/jail",
         output: 'img',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.greyscale",
@@ -339,7 +339,7 @@ module.exports = [
         func: "canvas.youtube",
         path: "/canvas/youtube-comment",
         output: 'img',
-        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "comment", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "comment", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvas.simp",
@@ -375,25 +375,25 @@ module.exports = [
         func: "canvasd.wasted",
         path: "/canvas/wasted",
         output: 'djsp',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvasd.gay",
         path: "/canvas/gay",
         output: 'djsp',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvasd.glass",
         path: "/canvas/glass",
         output: 'djsp',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvasd.jail",
         path: "/canvas/jail",
         output: 'djsp',
-        queries: [{key: "avatar", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvasd.greyscale",
@@ -453,7 +453,7 @@ module.exports = [
         func: "canvasd.youtube",
         path: "/canvas/youtube-comment",
         output: 'djsp',
-        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "comment", required: true}]
+        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "comment", required: true}, {key: "key", required: false}]
     },
     {
         func: "canvasd.simp",
@@ -484,5 +484,17 @@ module.exports = [
         path: "/canvas/colorviewer",
         output: 'djsp',
         queries: [{key: "hex", required: true}, {key: "key", required: false}]
+    },
+    {
+        func: "premium.amongus",
+        path: "/premium/amongus",
+        output: 'canvas',
+        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "key", required: true}, {key: "impostor", required: false}]
+    },
+    {
+        func: "premium.petpet",
+        path: "/premium/petpet",
+        output: 'canvas',
+        queries: [{key: "avatar", required: true}, {key: "key", required: true}]
     }
 ]
