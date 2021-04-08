@@ -496,5 +496,17 @@ module.exports = [
         path: "/premium/petpet",
         output: 'canvas',
         queries: [{key: "avatar", required: true}, {key: "key", required: true}]
+    },
+    {
+        func: "premiumd.amongus",
+        path: "/premium/amongus",
+        output: 'djsg',
+        queries: [{key: "avatar", required: true}, {key: "username", required: true}, {key: "key", required: true}, {key: "impostor", required: false}]
+    },
+    {
+        func: "premiumd.petpet",
+        path: "/premium/petpet",
+        output: 'djsg',
+        queries: [{key: "avatar", required: true}, {key: "key", required: true}]
     }
 ]

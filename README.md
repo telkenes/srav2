@@ -7,502 +7,367 @@ const sra = require('srav2')
 sra.chatbot('hello', 'keyhere')
 ```
 
+## Functions
 
-## animal.dog
-### Queries
+### animal.dog
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.cat
-### Queries
+### animal.cat
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.panda
-### Queries
+### animal.panda
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.fox
-### Queries
+### animal.fox
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.red_panda
-### Queries
+### animal.red_panda
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.koala
-### Queries
+### animal.koala
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.raccoon
-### Queries
+### animal.raccoon
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animal.kangaroo
-### Queries
+### animal.kangaroo
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animu.wink
-### Queries
+### animu.wink
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animu.pat
-### Queries
+### animu.pat
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animu.hug
-### Queries
+### animu.hug
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## animu.face_palm
-### Queries
+### animu.face_palm
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.dog
-### Queries
+### facts.dog
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.cat
-### Queries
+### facts.cat
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.panda
-### Queries
+### facts.panda
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.fox
-### Queries
+### facts.fox
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.birb
-### Queries
+### facts.birb
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.koala
-### Queries
+### facts.koala
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.kangaroo
-### Queries
+### facts.kangaroo
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.raccoon
-### Queries
+### facts.raccoon
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.elephant
-### Queries
+### facts.elephant
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.giraffe
-### Queries
+### facts.giraffe
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## facts.whale
-### Queries
+### facts.whale
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.dog
-### Queries
+### imgs.dog
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.cat
-### Queries
+### imgs.cat
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.panda
-### Queries
+### imgs.panda
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.fox
-### Queries
+### imgs.fox
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.red_panda
-### Queries
+### imgs.red_panda
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.koala
-### Queries
+### imgs.koala
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.birb
-### Queries
+### imgs.birb
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.raccoon
-### Queries
+### imgs.raccoon
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.kangaroo
-### Queries
+### imgs.kangaroo
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.whale
-### Queries
+### imgs.whale
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## imgs.pikachu
-### Queries
+### imgs.pikachu
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## chatbot
-### Queries
+### chatbot
+#### Queries
 |Query|Required|
 |-|-|
 |message|true|
 |key|true|
 
-## lyrics
-### Queries
+### lyrics
+#### Queries
 |Query|Required|
 |-|-|
 |title|true|
 |cancer|false|
 |key|false|
 
-## meme
-### Queries
+### meme
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## base64.encode
-### Queries
+### base64.encode
+#### Queries
 |Query|Required|
 |-|-|
 |encode|true|
 |key|false|
 
-## base64.decode
-### Queries
+### base64.decode
+#### Queries
 |Query|Required|
 |-|-|
 |decode|true|
 |key|false|
 
-## binary.encode
-### Queries
+### binary.encode
+#### Queries
 |Query|Required|
 |-|-|
 |text|true|
 |key|false|
 
-## binary.decode
-### Queries
+### binary.decode
+#### Queries
 |Query|Required|
 |-|-|
 |decode|true|
 |key|false|
 
-## joke
-### Queries
+### joke
+#### Queries
 |Query|Required|
 |-|-|
 |key|false|
 
-## minecraft
-### Queries
+### minecraft
+#### Queries
 |Query|Required|
 |-|-|
 |username|true|
 |key|false|
 
-## canvas.wasted
-### Queries
+### canvas.wasted
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.gay
-### Queries
+### canvas.gay
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.glass
-### Queries
+### canvas.glass
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.jail
-### Queries
+### canvas.jail
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.greyscale
-### Queries
+### canvas.greyscale
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.invert
-### Queries
+### canvas.invert
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.brightness
-### Queries
+### canvas.brightness
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.threshold
-### Queries
+### canvas.threshold
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.sepia
-### Queries
+### canvas.sepia
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.blurple
-### Queries
+### canvas.blurple
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.pixelate
-### Queries
+### canvas.pixelate
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.blur
-### Queries
+### canvas.blur
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.triggered
-### Queries
+### canvas.triggered
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvas.youtube
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|username|true|
-|comment|true|
-|key|false|
-
-## canvas.simp
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvas.horny
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvas.lolice
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvas.itssostupid
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|dog|true|
-|key|false|
-
-## canvas.colorviewer
-### Queries
-|Query|Required|
-|-|-|
-|hex|true|
-|key|false|
-
-## canvasd.wasted
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.gay
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.glass
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.jail
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.greyscale
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.invert
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.brightness
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.threshold
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.sepia
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.blurple
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.pixelate
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.blur
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.triggered
-### Queries
-|Query|Required|
-|-|-|
-|avatar|true|
-|key|false|
-
-## canvasd.youtube
-### Queries
+### canvas.youtube
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
@@ -510,44 +375,180 @@ sra.chatbot('hello', 'keyhere')
 |comment|true|
 |key|false|
 
-## canvasd.simp
-### Queries
+### canvas.simp
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvasd.horny
-### Queries
+### canvas.horny
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvasd.lolice
-### Queries
+### canvas.lolice
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |key|false|
 
-## canvasd.itssostupid
-### Queries
+### canvas.itssostupid
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
 |dog|true|
 |key|false|
 
-## canvasd.colorviewer
-### Queries
+### canvas.colorviewer
+#### Queries
 |Query|Required|
 |-|-|
 |hex|true|
 |key|false|
 
-## premium.amongus
-### Queries
+### canvasd.wasted
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.gay
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.glass
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.jail
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.greyscale
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.invert
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.brightness
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.threshold
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.sepia
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.blurple
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.pixelate
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.blur
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.triggered
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.youtube
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|username|true|
+|comment|true|
+|key|false|
+
+### canvasd.simp
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.horny
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.lolice
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|false|
+
+### canvasd.itssostupid
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|dog|true|
+|key|false|
+
+### canvasd.colorviewer
+#### Queries
+|Query|Required|
+|-|-|
+|hex|true|
+|key|false|
+
+### premium.amongus
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
@@ -555,8 +556,24 @@ sra.chatbot('hello', 'keyhere')
 |key|true|
 |impostor|false|
 
-## premium.petpet
-### Queries
+### premium.petpet
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|key|true|
+
+### premiumd.amongus
+#### Queries
+|Query|Required|
+|-|-|
+|avatar|true|
+|username|true|
+|key|true|
+|impostor|false|
+
+### premiumd.petpet
+#### Queries
 |Query|Required|
 |-|-|
 |avatar|true|
